@@ -129,7 +129,7 @@ Flink SQL> INSERT INTO enriched_orders
 进入Oracle容器中并通过如下的SQL语句对Oracle数据库进行一些修改, 然后就可以看到每执行一条SQL语句，Elasticsearch中的数据都会实时更新。
 
 ```shell
-docker-compose exec sqlplus flinkuser/flinkpw
+docker-compose exec oracle sqlplus flinkuser/flinkpw
 ```
 
 ```sql
